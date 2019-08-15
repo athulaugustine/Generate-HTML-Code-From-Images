@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Server</title>
+</head>
+<style type="text/css">
+	body{
+		background-image:url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-531880.jpg&fm=jpg");
+	}
+	#submit{
+		background-color:#44c767;
+		-moz-border-radius:28px;
+		-webkit-border-radius:28px;
+		border-radius:28px;
+		border:1px solid #18ab29;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:17px;
+		padding:16px 31px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #2f6627;
+		margin-left:45%;
+		margin-top:20%;
+	}
+	#submit:hover{
+		background-color:#5cbf2a;
+	}
+	#t1{
+		position:absolute;
+		margin-left:43%;
+		margin-top:15%;
+	}
+	
+</style>
+<body>
+    <form method="POST" action="/datahook">
+    	<input type="text"  name="fileName" id="t1">
+    	<input type="submit" name="Create" id="submit">
+    </form>
+</body>
+</html>
